@@ -31,6 +31,7 @@ Task Default -Depends Collect
 
 Task Test -Depends Compile -Description "Run unit and integration tests." {
     Run-XunitTests "Hangfire.PostgreSql.Tests"
+    Run-XunitCoreTests "Hangfire.PostgreSql.NetCore.Tests"
 }
 
 Task Merge -Depends Test -Description "Run ILMerge /internalize to merge assemblies." {
@@ -93,14 +94,17 @@ Task Version -Description "Patch AssemblyInfo and AppVeyor version files." {
 
 function Run-XunitTests($project) {
     $assembly = Get-Assembly $tests_dir $project
-    
-    "Run tests from '$assembly'..."
 
     if ($appVeyor) {
         Exec { xunit.console.clr4 $assembly /appveyor }
     } else {
         Exec { .$xunit $assembly }
     }
+}
+
+function Run-XunitCoreTests($project) {
+    $assembly = Get-Assembly $tests_dir $project
+    Exec { dotnet test "$tests_dir\$project" -c $config}
 }
 
 ### Merge functions
