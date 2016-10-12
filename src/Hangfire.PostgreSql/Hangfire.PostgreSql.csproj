@@ -72,85 +72,85 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\EnqueuedAndFetchedCountDto.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\EnqueuedAndFetchedCountDto.cs">
       <Link>EnqueuedAndFetchedCountDto.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\Entities\JobParameter.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\Entities\JobParameter.cs">
       <Link>Entities\JobParameter.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\Entities\Server.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\Entities\Server.cs">
       <Link>Entities\Server.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\Entities\ServerData.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\Entities\ServerData.cs">
       <Link>Entities\ServerData.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\Entities\SqlHash.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\Entities\SqlHash.cs">
       <Link>Entities\SqlHash.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\Entities\SqlJob.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\Entities\SqlJob.cs">
       <Link>Entities\SqlJob.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\Entities\SqlState.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\Entities\SqlState.cs">
       <Link>Entities\SqlState.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\ExpirationManager.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\ExpirationManager.cs">
       <Link>ExpirationManager.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\IPersistentJobQueue.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\IPersistentJobQueue.cs">
       <Link>IPersistentJobQueue.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\IPersistentJobQueueMonitoringApi.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\IPersistentJobQueueMonitoringApi.cs">
       <Link>IPersistentJobQueueMonitoringApi.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\IPersistentJobQueueProvider.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\IPersistentJobQueueProvider.cs">
       <Link>IPersistentJobQueueProvider.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\PersistentJobQueueProviderCollection.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\PersistentJobQueueProviderCollection.cs">
       <Link>PersistentJobQueueProviderCollection.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\PostgreSqlBootstrapperConfigurationExtensions.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\PostgreSqlBootstrapperConfigurationExtensions.cs">
       <Link>PostgreSqlBootstrapperConfigurationExtensions.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\PostgreSqlConnection.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\PostgreSqlConnection.cs">
       <Link>PostgreSqlConnection.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\PostgreSqlDistributedLock.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\PostgreSqlDistributedLock.cs">
       <Link>PostgreSqlDistributedLock.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\PostgreSqlDistributedLockException.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\PostgreSqlDistributedLockException.cs">
       <Link>PostgreSqlDistributedLockException.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\PostgreSqlFetchedJob.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\PostgreSqlFetchedJob.cs">
       <Link>PostgreSqlFetchedJob.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\PostgreSqlJobQueue.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\PostgreSqlJobQueue.cs">
       <Link>PostgreSqlJobQueue.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\PostgreSqlJobQueueMonitoringApi.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\PostgreSqlJobQueueMonitoringApi.cs">
       <Link>PostgreSqlJobQueueMonitoringApi.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\PostgreSqlJobQueueProvider.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\PostgreSqlJobQueueProvider.cs">
       <Link>PostgreSqlJobQueueProvider.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\PostgreSqlMonitoringApi.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\PostgreSqlMonitoringApi.cs">
       <Link>PostgreSqlMonitoringApi.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\PostgreSqlObjectsInstaller.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\PostgreSqlObjectsInstaller.cs">
       <Link>PostgreSqlObjectsInstaller.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\PostgreSqlStorage.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\PostgreSqlStorage.cs">
       <Link>PostgreSqlStorage.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\PostgreSqlStorageOptions.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\PostgreSqlStorageOptions.cs">
       <Link>PostgreSqlStorageOptions.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\PostgreSqlWriteOnlyTransaction.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\PostgreSqlWriteOnlyTransaction.cs">
       <Link>PostgreSqlWriteOnlyTransaction.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\Properties\Annotations.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\Properties\Annotations.cs">
       <Link>Annotations.cs</Link>
     </Compile>
-    <Compile Include="..\Hangfire.PostgreSql.NetCore\Utils\TryExecute.cs">
+    <Compile Include="..\Hangfire.PostgreSql.Core\Utils\TryExecute.cs">
       <Link>Utils\TryExecute.cs</Link>
     </Compile>
     <Compile Include="..\SharedAssemblyInfo.cs">
@@ -158,25 +158,26 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Hangfire.PostgreSql.NetCore\App.config">
+    <None Include="..\Hangfire.PostgreSql.Core\App.config">
       <Link>App.config</Link>
+      <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="..\Hangfire.PostgreSql.NetCore\Install.v3.sql">
+    <EmbeddedResource Include="..\Hangfire.PostgreSql.Core\Install.v3.sql">
       <Link>Install.v3.sql</Link>
     </EmbeddedResource>
-    <EmbeddedResource Include="..\Hangfire.PostgreSql.NetCore\Install.v4.sql">
+    <EmbeddedResource Include="..\Hangfire.PostgreSql.Core\Install.v4.sql">
       <Link>Install.v4.sql</Link>
     </EmbeddedResource>
-    <EmbeddedResource Include="..\Hangfire.PostgreSql.NetCore\Install.v5.sql">
+    <EmbeddedResource Include="..\Hangfire.PostgreSql.Core\Install.v5.sql">
       <Link>Install.v5.sql</Link>
     </EmbeddedResource>
-    <EmbeddedResource Include="..\Hangfire.PostgreSql.NetCore\Install.v6.sql">
+    <EmbeddedResource Include="..\Hangfire.PostgreSql.Core\Install.v6.sql">
       <Link>Install.v6.sql</Link>
     </EmbeddedResource>
-    <EmbeddedResource Include="..\Hangfire.PostgreSql.NetCore\Install.v7.sql">
+    <EmbeddedResource Include="..\Hangfire.PostgreSql.Core\Install.v7.sql">
       <Link>Install.v7.sql</Link>
     </EmbeddedResource>
   </ItemGroup>

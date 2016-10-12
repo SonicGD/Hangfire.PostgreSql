@@ -1,5 +1,5 @@
 {
-  "title": "Hangfire.PostgreSql.NetCore",
+  "title": "Hangfire.PostgreSql.Core",
   "version": "1.0.0-*",
   "testRunner": "xunit",
   "dependencies": {
@@ -10,10 +10,7 @@
     "Moq": "4.6.36-alpha",
     "Npgsql": "3.1.8",
     "Microsoft.Extensions.Testing.Abstractions": "1.0.0-preview2-003121",
-    "Hangfire.PostgreSql.NetCore": {
-      "type": "build",
-      "version": "1.4.3-*"
-    }
+    "Hangfire.PostgreSql.Core": "1.4.3-*"
   },
   "buildOptions": {
     "embed": [

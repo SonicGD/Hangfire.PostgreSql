@@ -61,7 +61,7 @@ namespace Hangfire.PostgreSql
 #if (NETCORE1 || NETCORE50 || NETSTANDARD1_5 || NETSTANDARD1_6)
                     script = GetStringResource(
 				      typeof (PostgreSqlObjectsInstaller).GetTypeInfo().Assembly,
-				      $"Hangfire.PostgreSql.NetCore.Install.v{version.ToString(CultureInfo.InvariantCulture)}.sql");
+				      $"Hangfire.PostgreSql.Core.Install.v{version.ToString(CultureInfo.InvariantCulture)}.sql");
 #else
                     script = GetStringResource(
 				      typeof (PostgreSqlObjectsInstaller).Assembly,

@@ -24,12 +24,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuspecs", "nuspecs", "{1635
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5CA38188-92EE-453C-A04E-A506DF15A787}"
 	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
 		src\SharedAssemblyInfo.cs = src\SharedAssemblyInfo.cs
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Hangfire.PostgreSql.NetCore", "src\Hangfire.PostgreSql.NetCore\Hangfire.PostgreSql.NetCore.xproj", "{3E4DBC41-F38E-4D1C-A6A7-206A132A29D6}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Hangfire.PostgreSql.Core", "src\Hangfire.PostgreSql.Core\Hangfire.PostgreSql.Core.xproj", "{3E4DBC41-F38E-4D1C-A6A7-206A132A29D6}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Hangfire.PostgreSql.NetCore.Tests", "tests\Hangfire.PostgreSql.NetCore.Tests\Hangfire.PostgreSql.NetCore.Tests.xproj", "{6044A48D-730B-4D1F-B03A-EB2B458DAF53}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Hangfire.PostgreSql.Core.Tests", "tests\Hangfire.PostgreSql.Core.Tests\Hangfire.PostgreSql.Core.Tests.xproj", "{6044A48D-730B-4D1F-B03A-EB2B458DAF53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

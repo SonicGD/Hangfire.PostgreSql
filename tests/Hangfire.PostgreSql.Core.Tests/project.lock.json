@@ -3201,7 +3201,7 @@
           "lib/netstandard1.1/xunit.runner.utility.dotnet.dll": {}
         }
       },
-      "Hangfire.PostgreSql.NetCore/1.4.3": {
+      "Hangfire.PostgreSql.Core/1.4.3": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v1.0",
         "dependencies": {
@@ -3214,10 +3214,10 @@
           "System.Runtime.Serialization.Formatters": "4.0.0-rc3-24212-01"
         },
         "compile": {
-          "netcoreapp1.0/Hangfire.PostgreSql.NetCore.dll": {}
+          "netcoreapp1.0/Hangfire.PostgreSql.Core.dll": {}
         },
         "runtime": {
-          "netcoreapp1.0/Hangfire.PostgreSql.NetCore.dll": {}
+          "netcoreapp1.0/Hangfire.PostgreSql.Core.dll": {}
         }
       }
     }
@@ -9134,17 +9134,17 @@
         "xunit.runner.utility.nuspec"
       ]
     },
-    "Hangfire.PostgreSql.NetCore/1.4.3": {
+    "Hangfire.PostgreSql.Core/1.4.3": {
       "type": "project",
-      "path": "../../src/Hangfire.PostgreSql.NetCore/project.json",
-      "msbuildProject": "../../src/Hangfire.PostgreSql.NetCore/Hangfire.PostgreSql.NetCore.xproj"
+      "path": "../../src/Hangfire.PostgreSql.Core/project.json",
+      "msbuildProject": "../../src/Hangfire.PostgreSql.Core/Hangfire.PostgreSql.Core.xproj"
     }
   },
   "projectFileDependencyGroups": {
     "": [
       "Castle.Core >= 4.0.0-beta001",
       "Dapper >= 1.50.2",
-      "Hangfire.PostgreSql.NetCore >= 1.4.3-*",
+      "Hangfire.PostgreSql.Core >= 1.4.3-*",
       "Microsoft.Extensions.Testing.Abstractions >= 1.0.0-preview2-003121",
       "Moq >= 4.6.36-alpha",
       "Npgsql >= 3.1.8",
