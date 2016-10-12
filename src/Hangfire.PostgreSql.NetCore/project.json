@@ -5,6 +5,10 @@
     "define": [ "NETCORE1" ]
   },
   "dependencies": {
+    "Microsoft.NETCore.App": {
+      "version": "1.0.1",
+      "type": "platform"
+    },
     "Dapper": "1.50.2",
     "Hangfire.AspNetCore": "1.6.3",
     "Hangfire.Core": "1.6.3",

@@ -3,6 +3,10 @@
   "version": "1.0.0-*",
   "testRunner": "xunit",
   "dependencies": {
+    "Microsoft.NETCore.App": {
+      "version": "1.0.1",
+      "type": "platform"
+    },
     "Castle.Core": "4.0.0-beta001",
     "Dapper": "1.50.2",
     "xunit": "2.2.0-*",
