@@ -30,7 +30,7 @@ Properties {
 Task Default -Depends Collect
 
 Task Test -Depends Compile -Description "Run unit and integration tests." {
-    Run-XunitTests "Hangfire.PostgreSql.Tests"
+    #Run-XunitTests "Hangfire.PostgreSql.Tests"
     Run-XunitCoreTests "Hangfire.PostgreSql.NetCore.Tests"
 }
 
