@@ -93,6 +93,8 @@ Task Version -Description "Patch AssemblyInfo and AppVeyor version files." {
 
 function Run-XunitTests($project) {
     $assembly = Get-Assembly $tests_dir $project
+    
+    "Run tests from '$assembly'..."
 
     if ($appVeyor) {
         Exec { xunit.console.clr4 $assembly /appveyor }
