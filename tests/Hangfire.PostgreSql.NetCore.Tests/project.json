@@ -1,7 +1,7 @@
 {
-	"title": "Hangfire.PostgreSql.NetCore",
-	"version": "1.0.0-*",
-	"testRunner": "xunit",
+  "title": "Hangfire.PostgreSql.NetCore",
+  "version": "1.0.0-*",
+  "testRunner": "xunit",
   "dependencies": {
     "Castle.Core": "4.0.0-beta001",
     "Dapper": "1.50.2",
@@ -10,22 +10,25 @@
     "Moq": "4.6.36-alpha",
     "Npgsql": "3.1.7",
     "Microsoft.Extensions.Testing.Abstractions": "1.0.0-preview2-003121",
-    "Hangfire.PostgreSql.NetCore": "1.4.3-*"
+    "Hangfire.PostgreSql.NetCore": {
+      "type": "build",
+      "version": "1.4.3-*"
+    }
   },
-	"buildOptions": {
-		"embed": [
-			"Clean.sql"
-		],
-		"define": [ "NETCORE1" ]
-	},
-	"frameworks": {
-		"netcoreapp1.0": {
-			"dependencies": {
-				"Microsoft.NETCore.App": {
-					"version": "1.0.0-*",
-					"type": "platform"
-				}
-			}
-		}
-	}
+  "buildOptions": {
+    "embed": [
+      "Clean.sql"
+    ],
+    "define": ["NETCORE1"]
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "version": "1.0.0-*",
+          "type": "platform"
+        }
+      }
+    }
+  }
 }
