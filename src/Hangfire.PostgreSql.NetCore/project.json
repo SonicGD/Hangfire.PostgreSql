@@ -5,7 +5,6 @@
     "define": [ "NETCORE1" ]
   },
   "dependencies": {
-    "NETStandard.Library": "1.6.0",
     "Dapper": "1.50.2",
     "Hangfire.AspNetCore": "1.6.3",
     "Hangfire.Core": "1.6.3",
@@ -14,8 +13,6 @@
     "System.Runtime.Serialization.Formatters": "4.0.0-rc3-24212-01"
   },
   "frameworks": {
-    "netstandard1.6": {
-      "imports": "dnxcore50"
-    }
+    "netcoreapp1.0": {}
   }
 }
